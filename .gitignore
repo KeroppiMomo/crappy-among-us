@@ -1,0 +1,13 @@
+.firebase/
+node_modules/
+**/.DS_Store
+.firebaserc
+.vim_session
+.vimrc
+**/*.psd
+**/*.d.ts
+lib/
+public/lib/
+admin-credential.json
+package-lock.json
+*.log

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "typeRoots": [ "./node_modules/@types" ],
+    "esModuleInterop": true,
+    "lib": ["es2015", "es2016", "dom", "es2018.promise", "es2019"]
+  },
+  "compileOnSave": true,
+  "include": ["main.ts"]
+}

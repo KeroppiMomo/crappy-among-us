@@ -499,15 +499,15 @@ export class MainMap implements GameMap {
             (onClose) => new RefuelStationTaskModal(onClose),
         )),
 
-        ...[
-            { pos: new Point(0, 0), loc: MapLocation.LowerEngine },
-            { pos: new Point(0, 0), loc: MapLocation.UpperEngine },
-        ].map(({pos, loc}) => new TaskInteractable(
-            pos,
-            "align_engine",
-            loc,
-            (sketch: p5) => sketch.image(Images["align_engine"], pos.x
-        )),
+        // ...[
+        //     { pos: new Point(0, 0), loc: MapLocation.LowerEngine },
+        //     { pos: new Point(0, 0), loc: MapLocation.UpperEngine },
+        // ].map(({pos, loc}) => new TaskInteractable(
+        //     pos,
+        //     "align_engine",
+        //     loc,
+        //     (sketch: p5) => sketch.image(Images["align_engine"], pos.x
+        // )),
     ];
 
     preRender(sketch: p5) {
